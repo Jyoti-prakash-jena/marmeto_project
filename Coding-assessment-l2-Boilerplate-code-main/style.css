@@ -1,0 +1,202 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width:50vw;
+
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li a {
+  font-size: 1.1em;
+  color: #000;
+}
+
+.nav-icons a {
+  margin-left: 15px;
+  font-size: 1.3em;
+  color: #000;
+}
+
+/* Cart Section */
+.container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 30vh;
+  width: 100vw;
+  background-image:url(img/techandall_wallpaper_5.jpg);
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.cart-section {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  clear: both; /* Ensures cart section clears floated elements */
+}
+
+.cart-section h2,p {
+  margin-bottom: 10px;
+}
+
+.cart-section p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.cart-content {
+  
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.cart-table {
+  width: 65%;
+  border-collapse: collapse;
+}
+
+.cart-table thead th {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.cart-table tbody tr td {
+  padding: 15px 0;
+}
+
+.cart-table .product-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-table .product-info img {
+  width: 80px;
+  height: 80px;
+}
+
+.cart-table input {
+  width: 50px;
+  padding: 5px;
+}
+
+.cart-totals {
+  width: 30%;
+  background-color: #F5EFE8;
+  padding: 20px;
+  border-radius: 10px;
+  /* Ensure it's in a flex layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-totals h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.cart-totals p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #eaeaea;
+  width: 100vw;
+  padding: 20px 0;
+  display: flex;
+  gap: 50px;
+  clear: both; /* Ensures footer clears floated or flex content */
+}
+.footer-content{
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-feature {
+  text-align: center;
+}
+
+.footer-feature i {
+  font-size: 2em;
+  color: #303030;
+}
+
+.footer-feature p {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Fix footer positioning */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
